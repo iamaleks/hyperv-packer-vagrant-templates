@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo echo "user    ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+sudo echo "vagrant    ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
