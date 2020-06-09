@@ -9,3 +9,4 @@ These templates are all made with Packer for Hyper-V and Vagrant usage. There ma
 Generic Ubuntu 18.04 template.
 
 - [Packer Link](https://github.com/iamaleks/hyperv-packer-vagrant-templates/tree/master/Ubuntu-18.04)
+- [Vagrant Cloud](https://app.vagrantup.com/iamaleks/boxes/Ubuntu-18.04)
