@@ -1,2 +1,7 @@
-# packer-vagrant-templates
-Packer scripts to create Hyper-V Vagrant templates.
+# Hyper-V and Vagrant Templates
+
+These templates are all made with Packer for Hyper-V and Vagrant usage.
+
+## Current Tempaltes
+
+- [Ubuntu-18.04](https://github.com/iamaleks/hyperv-packer-vagrant-templates/tree/master/Ubuntu-18.04): Ubuntu 18.04 base install. 
