@@ -1,8 +1,8 @@
     {
 
         "disk_size": "8024",
-        "ssh_username": "user",
-        "ssh_password": "qwe123",
+        "ssh_username": "vagrant",
+        "ssh_password": "vagrant",
         "seed_filename": "preseed.cfg",
         "seed_file_domain": "xxxxx.s3.xxxxx.amazonaws.com",
         "seed_filename": "preseed.cfg",
