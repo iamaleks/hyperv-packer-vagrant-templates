@@ -1,0 +1,22 @@
+Vagrant.configure("2") do |config|
+
+    config.vm.box = "iamaleks/Ubuntu-18.04"
+    config.vm.synced_folder ".", "/vagrant", disabled: true
+
+    config.vm.provider "hyperv" do |h|
+        h.vm_integration_services = {
+          auto_start_action: 'Nothing',
+          auto_stop_action: 'ShutDown',
+          cpus: 1,
+          maxmemory: 2048,
+          memory: 1024,
+          vmname: 'VM01'
+        }
+    end
+  
+    # config.vm.provision "shell", inline: <<-SHELL
+    #   apt-get update
+    #   apt-get install -y apache2
+    # SHELL
+
+  end
