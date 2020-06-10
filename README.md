@@ -11,3 +11,10 @@ Generic Ubuntu 18.04 template.
 - [Packer Link](https://github.com/iamaleks/hyperv-packer-vagrant-templates/tree/master/Ubuntu-18.04-Packer)
 - [Vagrant Link](https://github.com/iamaleks/hyperv-packer-vagrant-templates/tree/master/Ubuntu-18.04-Vagrant)
 - [Vagrant Cloud](https://app.vagrantup.com/iamaleks/boxes/Ubuntu-18.04)
+
+### Linux CLI RE VM
+
+Simple Linux VM for C/C++ and CLI RE tasks, mostly for learning.
+Dependent on [Ubuntu-18.04](https://app.vagrantup.com/iamaleks/boxes/Ubuntu-18.04)
+
+[Vagrant Link](./LinuxCLIREVM/Vagrantfile)
