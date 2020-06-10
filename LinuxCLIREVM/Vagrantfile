@@ -1,0 +1,25 @@
+Vagrant.configure("2") do |config|
+
+    # Virtual Machine for Simple Linux CLI Reversing and C/C++ Learning.
+
+    config.vm.box = "iamaleks/Ubuntu-18.04"
+    config.vm.synced_folder ".", "/vagrant", disabled: false
+
+    config.vm.provider "hyperv" do |h|
+        h.auto_start_action = 'Nothing'
+        h.auto_stop_action = 'ShutDown'
+        h.cpus = 2
+        h.maxmemory = 2048
+        h.memory = 512
+        h.vmname = 'Linux CLI RE VM'
+    end
+  
+    config.vm.provision "shell", inline: <<-SHELL
+       apt-get update
+       hostnamectl set-hostname LinuxCLIREVM
+       apt-get install -y build-essential vim nano cgdb gdb
+       apt-get install -y radare2
+       reboot
+    SHELL
+
+  end
