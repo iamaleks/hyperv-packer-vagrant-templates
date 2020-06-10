@@ -15,6 +15,7 @@ Generic Ubuntu 18.04 template.
 ### Linux CLI RE VM
 
 Simple Linux VM for C/C++ and CLI RE tasks, mostly for learning.
+
 Dependent on [Ubuntu-18.04](https://app.vagrantup.com/iamaleks/boxes/Ubuntu-18.04)
 
-[Vagrant Link](./LinuxCLIREVM/Vagrantfile)
+- [Vagrant Link](./LinuxCLIREVM/Vagrantfile)
